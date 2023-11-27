@@ -34,10 +34,10 @@
 		embedded_svc.settings.entryFeature = 'LiveAgent';
 
 		embedded_svc.init(
-			'https://customer-zukl--preprod.sandbox.my.salesforce.com',
-			'https://customer-zukl--preprod.sandbox.my.salesforce-sites.com/',
+			'https://customer-zukl--sfukl340.sandbox.my.salesforce.com',
+			'https://customer-zukl--sfukl340.sandbox.my.salesforce-sites.com/',
 			gslbBaseURL,
-			'00D3L0000000ksG',
+			'00D3L0000000p5W',
 			'Swindon_Web_Chat',
 			{
 				baseLiveAgentContentURL: 'https://c.la1-c1cs-lo3.salesforceliveagent.com/content',
@@ -52,7 +52,7 @@
 
 	if (!window.embedded_svc) {
 		var s = document.createElement('script');
-		s.setAttribute('src', 'https://customer-zukl--preprod.sandbox.my.salesforce.com/embeddedservice/5.0/esw.min.js');
+		s.setAttribute('src', 'https://customer-zukl--sfukl340.sandbox.my.salesforce.com/embeddedservice/5.0/esw.min.js');
 		s.onload = function() {
 			initESW(null);
 		};
